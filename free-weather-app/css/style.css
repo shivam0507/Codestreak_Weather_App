@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+  margin:0px;
+  padding:0px;
+  background-color:#000;
+  color:white;
+  font-family: 'Oswald', sans-serif;
+}
+.weather-header h1{
+  font-size:5em;
+  text-align:center;
+}
+.weather-main{
+  width:300px;
+  display:table;
+  opacity:0.8;
+  font-size:1.8em;
+  margin:0 auto;
+  margin-top:30px;
+}
+.weather-main p{
+  text-align:center;
+}
+.weather-footer{
+  width:300px;
+  display:table;
+  opacity:1.0;
+  font-size:1.4em;
+  margin:0 auto;
+}
+.weather-footer p{
+  text-align:center;
+}
+.temp{
+  cursor:pointer;
+  color:#fff;
+}
+.icon {
+  text-align:center;
+  margin:0 auto;
+}
